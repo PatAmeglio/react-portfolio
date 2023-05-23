@@ -1,25 +1,24 @@
-import './App.css';
+import './style/App.css';
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
+import Projects from './components/Projects';
+import About from './components/About';
+import Nav from './components/Navbar';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
-          <p>
-            Dope site coming soon!
-          </p>
+          <h2>
+            Patrick Ameglio
+          </h2>
         </header>
-        <nav>
-          <Link to="/"><p>Home</p></Link>
-          <Link to="/about"><p>About Me</p></Link>
-          <Link to="/projects"><p>Projects</p></Link>
-        </nav>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<h1>About Me</h1>} />
-          <Route path="/projects" element={<h1>Projects</h1>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>
