@@ -1,12 +1,20 @@
+import projects from "../Data/project.json"
+
 function Projects() {
     return (
         <div>
-            <h1>Project 1</h1>
-            <h1>Project 2</h1>
-            <h1>Project 3</h1>
-            <h1>Project 4</h1>
-
-        </div>
+            {projects.map(project => {
+                return (
+                    <div>
+                        <h3>{project.title}</h3>
+                        <p>{project.description}</p>
+                        <img src={project.image} />
+                        <a href={project.deployedLink}>Deployed Link</a>
+                        <a href={project.github}>Github Link</a>
+                    </div>
+                )
+            })}
+        </div >
     )
 }
 
