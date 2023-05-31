@@ -1,48 +1,41 @@
 [
     {
-        "title": "project 1",
+        "title": "Project 1",
         "description": "blah blsh balh",
         "image": "images/logo192.png",
         "deployedLink": "https://github.com/PatAmeglio/code-refactor-1",
         "github": "https://github.com/PatAmeglio"
     },
     {
-        "title": "project 2",
+        "title": "Project 2",
         "description": "blah blsh balh",
         "image": "",
         "deployedLink": "#",
         "github": "# "
     },
     {
-        "title": "project 3",
+        "title": "Project 3",
         "description": "blah blsh balh",
         "image": "#",
         "deployedLink": "#",
         "github": "# "
     },
     {
-        "title": "project 4",
+        "title": "Project 4",
         "description": "blah blsh balh",
         "image": "#",
         "deployedLink": "#",
         "github": "# "
     },
     {
-        "title": "project 5",
+        "title": "Project 5",
         "description": "blah blsh balh",
         "image": "#",
         "deployedLink": "#",
         "github": "# "
     },
     {
-        "title": "project 6",
-        "description": "blah blsh balh",
-        "image": "#",
-        "deployedLink": "#",
-        "github": "# "
-    },
-    {
-        "title": "project 7",
+        "title": "Project 6",
         "description": "blah blsh balh",
         "image": "#",
         "deployedLink": "#",
