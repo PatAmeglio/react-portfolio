@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Projects from './components/Projects';
 import About from './components/About';
 import Nav from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
-      <footer>Created by Pattymelt!</footer>
+      <Footer></Footer>
     </Router>
   );
 }
