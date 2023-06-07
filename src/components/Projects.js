@@ -7,13 +7,13 @@ import Col from 'react-bootstrap/Col';
 
 function Projects() {
     return (
-        <div>
+        <div className="projectcard">
             {projects.map(project => {
                 return (
                     <Container fluid>
                         <Row>
                             <Col>
-                                <Card style={{ width: '18rem' }}>
+                                <Card>
                                     <Card.Img variant="top" src={project.image} />
                                     <Card.Body>
                                         <Card.Title>{project.title}</Card.Title>

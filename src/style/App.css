@@ -1,35 +1,86 @@
 html,
-.App {
-    background: linear-gradient(to bottom, royalblue, black);
+body {
     height: 100%;
     margin: 0;
     padding: 0;
-    color: white
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, royalblue, black);
+    color: white;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    color: white
+    color: white;
 }
 
-footer {
-    margin-top: 70px;
+.footer {
     height: 75px;
     display: flex;
     justify-content: center;
     gap: 50px;
     align-items: center;
     padding-bottom: 50px;
-
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
 }
 
 main {
+    flex-grow: 1;
     padding-top: 150px;
 }
 
-.card {
+
+.projectcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Add gap between cards */
+}
+
+.projectcard .card {
     background-color: transparent;
+    background: linear-gradient(to bottom, royalblue, white);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 18rem;
+}
+
+.projectcard .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.projectcard .card-text {
+    font-size: 14px;
+}
+
+.projectcard .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectcard .card-body>* {
+    margin-bottom: 10px;
+}
+
+.projectcard .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
 }
 
 .container-fluid {
@@ -38,10 +89,4 @@ main {
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 100px;
-}
-
-/*  Global Page Elements  */
-:root {
-    --bs-body-bg: transparent;
-
 }
