@@ -1,35 +1,47 @@
- body {
-     background-color: aliceblue;
- }
+html,
+.App {
+    background: linear-gradient(to bottom, royalblue, black);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white
+}
 
- nav {
-     display: flex;
-     justify-content: center;
- }
+nav {
+    display: flex;
+    justify-content: center;
+    color: white
+}
 
- footer {
-     margin-top: 70px;
-     height: 75px;
-     display: flex;
-     justify-content: center;
-     gap: 50px;
-     align-items: center;
-     padding-bottom: 50px;
+footer {
+    margin-top: 70px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-bottom: 50px;
 
- }
+}
 
- main {
-     padding-top: 150px;
- }
+main {
+    padding-top: 150px;
+}
 
- .card {
-     background-color: transparent;
- }
+.card {
+    background-color: transparent;
+}
 
- .container-fluid {
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
-     padding-top: 50px;
-     padding-bottom: 100px;
- }
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/*  Global Page Elements  */
+:root {
+    --bs-body-bg: transparent;
+
+}
