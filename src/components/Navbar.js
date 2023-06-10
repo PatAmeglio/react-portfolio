@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import resumeImage from '../Data/resume.pdf';
 
 function Nav() {
     let location = useLocation();
@@ -14,7 +15,7 @@ function Nav() {
             <Link className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'} to="/contact" style={{ color: 'white', backgroundColor: location.pathname === '/contact' ? 'black' : '' }}>
                 <p className='nav-item'>Contact Page</p>
             </Link>
-            <a className='nav-item' target="_blank" href="/resume.pdf" style={{ color: 'white', backgroundColor: location.pathname === '/ID.pdf' ? 'black' : '' }}>
+            <a className='nav-item' target="_blank" href="./Data/resume.pdf" style={{ color: 'white', backgroundColor: location.pathname === '/ID.pdf' ? 'black' : '' }}>
                 <p className='nav-link' style={{ color: 'white' }}>Resume</p>
             </a>
         </nav>
