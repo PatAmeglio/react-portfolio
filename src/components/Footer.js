@@ -28,7 +28,7 @@ function Footer() {
                     />
                 </a>
 
-                <a href="https://www.linkedin.com/in/">
+                <a href="https://www.linkedin.com/in/patrick-ameglio-8319a6b0/">
                     <img
                         src={linkedInImage}
                         id="contactImages"
