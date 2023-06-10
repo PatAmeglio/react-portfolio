@@ -19,6 +19,7 @@ nav {
     color: white;
 }
 
+/* 
 .footer {
     height: 75px;
     display: flex;
@@ -31,7 +32,7 @@ nav {
     left: 0;
     width: 100%;
     margin-top: auto;
-}
+} */
 
 main {
     flex-grow: 1;
