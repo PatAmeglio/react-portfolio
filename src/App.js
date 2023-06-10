@@ -18,7 +18,7 @@ function App() {
         <Nav />
         <div className="content-container">
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/react-portfolio" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
