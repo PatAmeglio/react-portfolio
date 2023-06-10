@@ -11,7 +11,7 @@ function About() {
                     <img src={profileImage} alt="profile" className="img-fluid mb-4" />
                 </Col>
             </Row>
-            <p>
+            <p style={{ fontSize: '1.7rem' }}>
                 Orlando based web developer in training. Living life to the fullest from living in Dubai, to being a paragliding pilot, to becoming a second degree black belt. Built my own computer to build your dream website. On the path to greatness!
             </p>
         </Container>

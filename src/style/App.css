@@ -19,21 +19,6 @@ nav {
     color: white;
 }
 
-/* 
-.footer {
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    align-items: center;
-    padding-bottom: 50px;
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    margin-top: auto;
-} */
-
 main {
     flex-grow: 1;
     padding-top: 150px;
