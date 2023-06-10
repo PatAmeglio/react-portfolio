@@ -16,11 +16,13 @@ function App() {
           </h2>
         </header>
         <Nav />
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
+        <div className="content-container">
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </div>
         <Footer></Footer>
       </div>
     </Router>
@@ -28,3 +30,4 @@ function App() {
 }
 
 export default App;
+

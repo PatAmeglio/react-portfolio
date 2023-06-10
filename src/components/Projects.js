@@ -10,14 +10,18 @@ function Projects() {
         <Container fluid>
             <Row className="justify-content-center">
                 {projects.map(project => (
-                    <Col md={4} key={project.id}>
-                        <Card>
-                            <Card.Img variant="top" src={project.image} />
-                            <Card.Body>
-                                <Card.Title>{project.title}</Card.Title>
-                                <Card.Text>{project.description}</Card.Text>
-                                <Button href={project.deployedLink}>Deployed Link</Button>
-                                <Button href={project.github}>Github Link</Button>
+                    <Col sm={6} md={4} key={project.id} className="mb-4">
+                        <Card style={{ backgroundColor: '#e0fbfc' }}>
+                            <Card.Img variant="top" src={project.image} className="card-image" />
+                            <Card.Body className="d-flex flex-column align-items-center">
+                                <Card.Title className="text-center mb-3" style={{ fontSize: '1.2rem' }}>
+                                    {project.title}
+                                </Card.Title>
+                                <Card.Text className="text-center">{project.description}</Card.Text>
+                                <div className="d-flex justify-content-center gap-2 mt-auto">
+                                    <Button href={project.deployedLink}>Deployed Link</Button>
+                                    <Button href={project.github}>Github Link</Button>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>

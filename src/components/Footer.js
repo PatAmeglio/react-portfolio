@@ -14,7 +14,7 @@ function Footer() {
                         id="contactImages"
                         alt="Github Portfolio"
                         className="contact-image mx-3 "
-                        style={{ width: '4rem', height: '4rem' }} // Adjust the width and height to make the images smaller
+                        style={{ width: '4rem', height: '4rem' }}
                     />
                 </a>
 
@@ -24,7 +24,7 @@ function Footer() {
                         id="contactImages"
                         alt="My Email"
                         className="contact-image mx-3"
-                        style={{ width: '4rem', height: '4rem' }} // Adjust the width and height to make the images smaller
+                        style={{ width: '4rem', height: '4rem' }}
                     />
                 </a>
 
@@ -34,7 +34,7 @@ function Footer() {
                         id="contactImages"
                         alt="LinkedIn Profile"
                         className="contact-image mx-3"
-                        style={{ width: '4rem', height: '4rem' }} // Adjust the width and height to make the images smaller
+                        style={{ width: '4rem', height: '4rem' }}
                     />
                 </a>
             </Container>
