@@ -1,44 +1,44 @@
 [
     {
-        "title": "Project 1",
-        "description": "blah blsh balh",
-        "image": "images/logo192.png",
+        "title": "Curious Chronicles",
+        "description": "This web application fosters children's journaling, promoting well-being and personal growth. It uses a range of technologies and features customizable avatars, daily mood selection, and interactive prompts. Children engage through games and earn badges for participation.",
+        "image": "images/kids.jpeg",
         "deployedLink": "https://github.com/PatAmeglio/code-refactor-1",
-        "github": "https://github.com/PatAmeglio"
+        "github": "https://github.com/Qaizen/curious-chronicles"
     },
     {
-        "title": "Project 2",
-        "description": "blah blsh balh",
-        "image": "",
-        "deployedLink": "#",
-        "github": "# "
+        "title": "Recipe Rewind",
+        "description": "A web browser created using front and back end applications to allow the user to create an account, log into their profile, and add and delete their favorite recipes!",
+        "image": "images/recipe.jpeg",
+        "deployedLink": "https://reciperewind3.herokuapp.com/",
+        "github": "https://github.com/dolivafig/Recipe_Rewind"
     },
     {
-        "title": "Project 3",
-        "description": "blah blsh balh",
-        "image": "#",
-        "deployedLink": "#",
-        "github": "# "
+        "title": "The Happy Hour",
+        "description": "A web browser created for drinking enthusiast. Whether you are looking drinks you can make at home or a brewery in your local area, we can help you with all your drinking needs.",
+        "image": "images/happyhour.jpeg",
+        "deployedLink": "https://qaizen.github.io/TheHappyHour/#!",
+        "github": "https://github.com/Qaizen/TheHappyHour"
     },
     {
-        "title": "Project 4",
-        "description": "blah blsh balh",
-        "image": "#",
-        "deployedLink": "#",
-        "github": "# "
+        "title": "Note Taker",
+        "description": "This web application is a simple note-taking tool that allows you to add and delete notes. To access the notes page, click 'Get Started' and you will be redirected. On the notes page, you can add a title and description to each note. To save a note, click the save button at the top left. To delete a note, simply click the red trash bin icon next to the note on the left.",
+        "image": "images/notes.png",
+        "deployedLink": "https://serene-beach-56535.herokuapp.com/",
+        "github": "https://github.com/PatAmeglio/note-taker"
     },
     {
-        "title": "Project 5",
-        "description": "blah blsh balh",
-        "image": "#",
-        "deployedLink": "#",
-        "github": "# "
+        "title": "Weather Dashboard",
+        "description": "This web application enables users to search for a city and access its current weather and 5-day forecast, including details like date, temperature, humidity, wind speed, and icons. It alerts users if a city is not found and retains a history of the 5 most recent searches for quick access to weather information.",
+        "image": "images/weather.jpeg",
+        "deployedLink": "https://patameglio.github.io/weather-dashboard/",
+        "github": "https://github.com/PatAmeglio/weather-dashboard"
     },
     {
-        "title": "Project 6",
-        "description": "blah blsh balh",
-        "image": "#",
-        "deployedLink": "#",
-        "github": "# "
+        "title": "Daily Planner",
+        "description": "This application is a daily planner that will keep track of and save tasks in local storage. The hourly line will show a gray color if it's in the past, red if it's live, and green if it's in the future. The application will keep track of all tasks in a 9-5 workday schedule.",
+        "image": "images/planner.jpeg",
+        "deployedLink": "https://patameglio.github.io/daily-planner/",
+        "github": "https://github.com/PatAmeglio/daily-planner"
     }
 ]
