@@ -12,7 +12,7 @@ function Projects() {
                 {projects.map(project => (
                     <Col sm={6} md={4} key={project.id} className="mb-4">
                         <Card style={{ backgroundColor: '#e0fbfc' }}>
-                            <Card.Img variant="top" src={project.image} className="card-image" />
+                            <Card.Img variant="top" src={require(`../images/${project.image}`)} className="card-image" />
                             <Card.Body className="d-flex flex-column align-items-center">
                                 <Card.Title className="text-center mb-3" style={{ fontSize: '1.2rem' }}>
                                     {project.title}
