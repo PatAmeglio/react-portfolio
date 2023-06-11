@@ -22,7 +22,7 @@ Run "npm run develop" to automatically launch the default web browser and open t
 
 ### Link to deployed application
 
-
+https://patameglio.github.io/react-portfolio/
 
 ![Sample Website Preview](./src/images/Screenshot%202023-06-10%20at%202.19.01%20PM.png)
 
